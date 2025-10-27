@@ -1,0 +1,13 @@
+# Define as dimensões
+comprimento = 12  # cm
+largura = 14      # cm
+altura = 20       # cm
+
+# Calcula o volume
+volume = comprimento * largura * altura
+
+# Exibe o resultado, incluindo a unidade (cm³)
+print(f"Comprimento: {comprimento} cm")
+print(f"Largura: {largura} cm")
+print(f"Altura: {altura} cm")
+print(f"O volume da caixa retangular é: {volume} cm³")
