@@ -1,0 +1,16 @@
+# Define as informações da compra
+nome_produto = "Cadeira Infantil"
+preco_unitario = 12.40  # R$
+quantidade = 3
+
+# Calcula o preço total
+preco_total = preco_unitario * quantidade
+
+# Exibe todas as informações e o resultado final
+print(f"--- Detalhes da Compra ---")
+print(f"Produto: {nome_produto}")
+# O :.2f garante que o número terá duas casas decimais, ideal para dinheiro
+print(f"Preço Unitário: R$ {preco_unitario:.2f}")
+print(f"Quantidade Comprada: {quantidade}")
+print(f"--------------------------")
+print(f"Preço Total a Pagar: R$ {preco_total:.2f}")
