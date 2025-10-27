@@ -1,0 +1,26 @@
+# Leitura dos 4 valores inteiros
+# Para fins de demonstração, vamos atribuir valores, mas em um programa real
+# usaríamos 'input()' para que o usuário digitasse os números.
+
+# Valores de exemplo (simulando a entrada)
+A = 5
+B = 6
+C = 7
+D = 8
+
+# Para entrada do usuário, você faria assim:
+# A = int(input("Digite o valor de A: "))
+# B = int(input("Digite o valor de B: "))
+# C = int(input("Digite o valor de C: "))
+# D = int(input("Digite o valor de D: "))
+
+
+# Calcula a diferença
+# O uso de parênteses garante que as multiplicações ocorram antes da subtração
+diferenca = (A * B) - (C * D)
+
+# Imprime a mensagem solicitada "DIFERENCA = "
+print(f"DIFERENCA = {diferenca}")
+
+# Exemplo com os valores A=5, B=6, C=7, D=8:
+# (5 * 6) - (7 * 8) = 30 - 56 = -26
